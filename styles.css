@@ -1,0 +1,239 @@
+:root {
+  
+  }
+  * {
+      font-family: cursive;
+      overflow: hidden;
+    }
+    .background {
+      width: 100%;
+      height: 65%;
+      background-color: var(--backgroundColor);
+    }
+    body{
+      background-image: url("Assets/images/fondo.jpeg");
+      background-attachment: inherit;
+      background-position-x: center;
+      height: 100vh;
+      margin: auto;
+      overflow: auto;
+  
+    }
+    
+    .container {
+      width: 100%;
+      height: 60%;
+      display: flex;
+    }
+    
+    .container-header {
+      height: 60px;
+      width: 100%;
+      display: flex;
+      background-color: rgba(0, 0, 0, 0.1);
+    }
+    
+    header {
+      position: absolute;
+      display: flex;
+      height: 50%;
+      width: 100%;
+      margin-left: -8px;
+      margin-top: -8px;
+      
+      
+    }
+    
+    .Heralf_service {
+      height: 100%;
+      width: 15%;
+      display: block;
+      text-align: center;
+    }
+    
+    .Heralf_service img {
+      height: inherit;
+    }
+    
+    .menu ul {
+      list-style-type: none;
+      margin: 0px;
+      padding: 0px;
+      display: inline-flex;
+    }
+    
+    .menu li {
+      float: left;
+    }
+    
+    .menu li a {
+      display: block;
+      color: white;
+      padding: 7px 15px;
+      text-decoration: none;
+      text-align: center;
+      font-size: large;
+      border-radius: 20px;
+    }
+    
+    .menu li a:hover {
+      background-color: #555;
+      color: white;
+    }
+    
+    .menu {
+      width: 75%;
+      text-align: center;
+      align-self: center;
+    }
+    
+    .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    margin-top: 2%;
+    width: 45%;
+    }
+      
+    .mySlides{
+      display: none;
+    }
+  
+    .prev, .next {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      width: auto;
+      margin-top: -20px;
+      padding: 15px;
+      font-weight: bold;
+      font-size: 20px;
+      transition: 0.6s ease;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+    }
+  
+    .next{
+      right: 0;
+      border-radius: 3px 0 0 3px;
+    }
+  
+    .prev:hover, .next:hover{
+      background-color: rgba(0, 0, 0, 0.5);
+  
+    }
+  
+    .text{
+      font-size: 15px;
+      padding: 8px 12px;
+      position: absolute;
+      bottom: 10px;
+      width: 100%;
+      text-align: center;
+    }
+  
+    .numbertext{
+      font-size: 15px;
+      padding: 8px 12px;
+      position: absolute;
+      top: 0;
+    }
+  
+    .dot {
+      cursor: pointer;
+      height: 15px;
+      width: 15px;
+      margin: 0 2px;
+      background-color: #bbb;
+      border-radius: 50%;
+      display: inline-block;
+      transition: background-color 4s ease;
+    }
+  
+    .active, .dot:hover{
+      background-color: #717171;
+    }
+  
+    .fade{
+      -webkit-animation: fade;
+      -webkit-animation-duration: 1s;
+      animation-name: fade;
+      animation-duration: 1s;
+    }
+  
+    @-webkit-keyframes face{
+      from {opacity: .4;}
+      to {opacity: 1;}
+    }
+  
+    @keyframes fade {
+      from {opacity: .4;}
+      to {opacity: 1;}
+    }
+    .grid-container{
+      display: grid;
+      grid-template-columns: auto auto auto;
+      padding: 10px; 
+      background-color: var(--backgroundColor);
+      
+    }
+    .grid-item{
+      padding: 20px;
+      font-size: 30px;
+      text-align: center;
+      height: 250px;
+      width: 90%;
+      transition: .2s;
+  
+    }
+    .grid-item:hover{
+      transform: scale(1.2);
+  
+    }
+    .grid-item img {
+      height: inherit;
+      width: inherit;
+    }
+    
+    .container-footer{
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+      padding: 10px; 
+      background-color: var(--backgroundColor);
+      
+    }
+    .grid-footer{
+      padding: 20px;
+      font-size: 30px;
+      height: 250px;
+      width: 90%;
+    }
+  
+    .grid-footer li a {
+      display: block;
+      color: black; 
+      text-decoration: none; 
+      font-size: large;
+    }
+    .grid-footer h6 {
+      scroll-margin-block-start: 1em;
+      margin-inline-start: 0px;
+      padding-inline-start: 40px;
+    }
+  
+  
+  .container-icons{
+    position:absolute;
+    top: 50%;
+    font-size: 30px;
+  }
+  .whatsapp{
+    color: green;
+  }
+  
+  
+  footer{
+    width: 100%;
+    text-align: center;
+    color: black;
+  }
