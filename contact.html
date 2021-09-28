@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="Assets/pluguins/bootstrap-5.1.1-dist/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="Assets/pluguins/bootstrap-5.1.1-dist/js/">
+    <title>Contacto</title>
+</head>
+<body>
+    <div class="container-contac">
+        <header>
+            <div class="container-header">
+                <div class="Heralf_service">
+                    <img src="Assets/images/Logo.jpeg" alt="Heralf.Service">
+                </div>
+                <nav class="menu">
+                    <ul>
+                        <li><a href="index.html">Contacto</a></li>
+                        <li><a href="#">Soporte</a></li>
+                        <li><a href="Nosotros.html">Nosotros</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    </div>
+
+    <div class="row">
+        <form id="myForm">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="form-group" id="firts Name">
+                        <label>Firts Name</label>
+                        <input type="text" class="Form">
+                        <label class="error" id="errorFirstName"></label>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                <div class="form-group" id="second Name">
+                    <label>Second Name</label>
+                    <input type="text" class="Form">
+                    <label class="error" id="errorSecondName"></label>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="form-group" id="last Name">
+                    <label>Last Name</label>
+                    <input type="text" class="Form">
+                    <label class="error" id="errorLastName"></label>
+                </div>
+            </div>
+            <div class="col-sm-6">
+            <div class="form-group" id="secondLastName">
+                <label>Second Last Name</label>
+                <input type="text" class="Form">
+                <label class="error" id="errorSecondLastName"></label>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="form-group" id="age">
+                <label>Age</label>
+                <input type="number" class="Form">
+                <label class="error" id="errorAge"></label>
+            </div>
+        </div>
+        <div class="col-sm-6">
+        <div class="form-group">
+            <label>Gender</label>
+            <select id="gender" class="form-control">
+                <option value="e">----</option>
+                <option value="m">Masculino</option>
+                <option value="f">Femenino</option>
+            </select>
+        </div>
+    </div>
+</div>
+
+    <div class="row">
+        <div class="col-sm-4">
+            <button type="button"class="btn btn-primary" onclick="validfields()">Valid</button>
+        </div>
+     </div>
+   </form>
+ </div>
+ 
+
+            
+    
+
+        <div class="container-footer">
+            <div class="grid-footer">
+                <h6>Menu</h6>
+                <ul>
+                    <li><a href="index.html">Contacto</a></li>
+                    <li><a href="#">Soporte</a></li>
+                    <li><a href="Nosotros.html">Nosotros</a></li>
+                </ul>
+            </div>
+
+            <div class="grid-footer"></div>
+            <div class="grid-footer">
+                <h6>Contacto</h6>
+                <ul>
+                    <li><a href="mailto:hernan244s@gmail.com?subject=Feedback"><span><i class="fas fa-envelope">
+                                    hernan244s@gmail.com</i></span></a></li>
+                    <li><a href="https://web.whatsapp.com/send?phone=573102362933"><span><i
+                                    class="fab fa-whatsapp-square">
+                                    3102362933 </i></span></a></li>
+                </ul>
+            </div>
+            <script src="Assets/jquery.min.js"></script>
+            <script src="Assets/pluguins/bootstrap-5.1.1-dist/js/bootstrap.bundle.min.js"></script>
+            <script src="Assets/javascripcontacto.js"></script>
+</body>
+
+</html>
