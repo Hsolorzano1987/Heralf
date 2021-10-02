@@ -36,10 +36,11 @@
                     <div class="col-sm-6">
                         <div class="form-group" id="firts Name">
                             <label>Firts Name</label>
-                            <input type="text" class="Form">
+                            <input type="text" class="Form-control">
                             <label class="error" id="errorFirstName"></label>
                         </div>
                     </div>
+  
                     <div class="col-sm-6">
                         <div class="form-group" id="second Name">
                             <label>Second Name</label>
@@ -85,10 +86,24 @@
                 </div>
                 <div class="row">
                     <div class="col-sm-4">
-                        <button type="button" class="btn btn-success" onclick="validfields()">Valid</button>
+                        <button type="button" class="btn btn-success" onclick="validfields2()">Valid</button>
                     </div>
                 </div>
             </form>
+        </div>
+
+        <div class="row">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col">Id</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Salary</th>
+                        <th scope="col">Active</th>
+                    </tr>
+                </thead>
+                <tbody id="tbody"> </tbody>
+            </table>
         </div>
     </div>
 
